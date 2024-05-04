@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+    color: white;
+}
+
+.a
+{
+    width: 100%;
+    height: 100vh;
+    /*background: rgb(218, 224, 236);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top left, #08216a, #ef92d8);
+}
+
+.calci
+{
+    background-color: #1b1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calci form input
+{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(101, 50, 255, 0.081),5px 5px 15px rgba(0, 0, 0, 0.629);
+    background: transparent;
+    font-size: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+form .topspace
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 3px 2px;
+}
+
+form .topspace input
+{
+    text-align: right;
+    padding: 10px;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: inset;
+    background-color: rgb(59, 72, 72);
+}
+
+form input.equal
+{
+    width: 147px;
+}
+
+form .newcolor
+{
+    color: rgb(127, 236, 255);
+}
+
+.heading
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(127, 236, 255);
+}
+
+.h
+{
+    font-size: 25px;
+    color: rgb(37, 35, 68);
+    font-family: "Roboto", sans-serif;
+    background: #e9acd9;
+    text-align: center;
+    padding-top: 0px
+}
+
+.calci form input.AC_color
+{
+    background-color: rgb(233, 98, 50);
+}
+
+.calci form input.E_color
+{
+    background-color: rgb(231, 231, 222);
+}
+
+form .NEW {
+    color: black;
+    font-size: 18px;
+}
+
+.AC_size
+{
+    font-size: 18px;
+}
+
+.DE_size
+{
+    font-size: 18px;
+}
+
+.dot
+{
+    font-size: 20px;
+}
+
+.divv{
+    font-size: 18px;
+}
+
+.mull{
+    font-size: 18px;
+}
+
+.sub{
+    font-size: 18px;
+}
+
+.add{
+    font-size: 18px;
+}
+
